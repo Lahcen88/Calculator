@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(152, 226, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 400px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.top-part {
+    background-color: #1976D2;
+    font-size: 75px;
+    color: white;
+    text-align: center;
+}
+
+.bottom-part { 
+    background-color: white;
+    height: 350px;
+}
+
+.bottom-part ul {
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+.bottom-part label {
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-style: italic
+}
+
+.bottom-part select {
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom:10px;
+    margin-left: 5%;
+}
+
+.bottom-part input {
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+}
+
+.submit1 {
+    background-color: rgb(32, 139, 245);
+    color: white;
+}
+
+.reset {
+    background-color: orangered;
+    color: white;
+}
